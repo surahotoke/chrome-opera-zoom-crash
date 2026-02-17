@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1つ目は落ちない。2つ目は落ちる（Chrome / Operaのみ）</title>
+  <style>
+    input {
+      transform-origin: top left;
+      scale: .01;
+      position: absolute;
+      top: calc(sibling-index() * .3px);
+    }
+  </style>
+</head>
+<body>
+  <input type="datetime-local" style="zoom: 75">
+  <input type="datetime-local" style="zoom: 76">
+  <input type="week" style="zoom: 84">
+  <input type="week" style="zoom: 85">
+  <input type="date" style="zoom: 93">
+  <input type="date" style="zoom: 94">
+  <input type="color" style="zoom: 95">
+  <input type="color" style="zoom: 96">
+  <input type="month" style="zoom: 112">
+  <input type="month" style="zoom: 113">
+  <input type="time" style="zoom: 133">
+  <input type="time" style="zoom: 134">
+</body>
+</html>
