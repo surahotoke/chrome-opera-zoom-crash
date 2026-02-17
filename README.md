@@ -6,11 +6,14 @@
 https://surahotoke.github.io/chrome-opera-zoom-crash
 
 ## ⚠️ 対象ブラウザ
-- **Google Chrome** (クラッシュを確認)
-- **Opera** (クラッシュを確認)
+- **macOS**
+  - **Google Chrome** (クラッシュを確認)
+  - **Opera** (クラッシュを確認)
 
 ### 🚀 影響を受けないブラウザ
 以下のブラウザでは正常に動作し、クラッシュは発生しません。
+- **Windows** (Confirmed stable by community test)
+- **iOS / Android** (Mobile browsers are not affected)
 - **Microsoft Edge** (Chromium-based, but stable)
 - **Firefox** (Gecko engine)
 - **Safari** (WebKit engine)
@@ -44,11 +47,14 @@ This repository demonstrates a **100% reproducible crash** in certain Chromium-b
 https://surahotoke.github.io/chrome-opera-zoom-crash
 
 ## ⚠️ Affected Browsers
-- **Google Chrome** (Confirmed Crash)
-- **Opera** (Confirmed Crash)
+- **macOS**
+  - **Google Chrome** (Confirmed Crash)
+  - **Opera** (Confirmed Crash)
 
 ### 🚀 Not Affected
 The following browsers remain stable and do not crash:
+- **Windows** (Confirmed stable by community test)
+- **iOS / Android** (Mobile browsers are not affected)
 - **Microsoft Edge** (Chromium-based, but stable)
 - **Firefox** (Gecko engine)
 - **Safari** (WebKit engine)
